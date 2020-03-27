@@ -1,3 +1,3 @@
 SELECT * FROM Enrolments
-FULL OUTER JOIN Students
+INNER JOIN Students
 ON Enrolments.StudentID = Students.StudentID
